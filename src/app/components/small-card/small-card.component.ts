@@ -12,5 +12,9 @@ export class SmallCardComponent {
 
   @Input()
   cardTitle:String = ""
+
+  @Input()
+  Id:string="0"
+
   constructor(){ }
 }
