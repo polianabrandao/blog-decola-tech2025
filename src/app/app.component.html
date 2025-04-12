@@ -1,9 +1,19 @@
+<!-- os seletores abaixo vão sempre aparecer, em todas as páginas (fixo). -->
+
 <header>
-    <!-- vai sempre aparecer, em todas as páginas (fixo). -->
     <app-menu-bar></app-menu-bar>
-    
 </header>
+
 <nav>
     <app-menu-nav></app-menu-nav>
 </nav>
-<router-outlet />
+
+<main>
+    <!-- aqui será exibido o conteúdo da página -->
+    <router-outlet />
+</main>
+
+<footer>
+    <app-footer></app-footer>
+</footer>
+
