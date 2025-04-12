@@ -1,5 +1,21 @@
+/* representa o elemento que ancapsula o app.component */
+:host {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 header {
     margin-top: 15px;
     display: flex;
     justify-content: center;
 }
+
+header, nav, footer {
+    /* impede que esses elementos sejam encolhidos quando o espaço estiver apertado. */
+    flex-shrink: 0;
+}
+
+main {
+    flex: 1;
+  }
