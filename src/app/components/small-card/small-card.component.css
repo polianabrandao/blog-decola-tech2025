@@ -1,5 +1,5 @@
 .container__small-card{
-    width: 700px;
+    width: 500px;
     margin-bottom: 15px;
 }
 
@@ -8,10 +8,16 @@
     flex-direction: row;
 }
 
+.container__small-card-content:hover{
+    transform: translateY(-5px);
+}
+
 .small-card__photo > img {
     width: 200px;
     min-width: 200px;
     margin-right: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px #d55d3583;
 }
 
 .small-card__title {
@@ -20,6 +26,17 @@
     align-items: center;
 }
 
-.container__small-card__separator{
+.small-card__title h1 {
+    font-size: 25px;
+}
+
+.small-card__title a:hover {
+    color: #d55d35;
+}
+
+.container__small-card__separator hr{
+    border: none;
     margin: 10px;
+    height: 1px;
+    background-color: white;
 }
