@@ -12,7 +12,6 @@ import { ContentComponent } from './pages/content/content.component';
 import { MenuNavComponent } from './components/menu-nav/menu-nav.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { DicasViagensComponent } from './pages/dicas-viagens/dicas-viagens.component';
-import { RoteirosComponent } from './pages/roteiros/roteiros.component';
 import { GaleriaFotosComponent } from './pages/galeria-fotos/galeria-fotos.component';
 import { SobreComponent } from './pages/sobre/sobre.component';
 
@@ -28,7 +27,6 @@ import { SobreComponent } from './pages/sobre/sobre.component';
     MenuNavComponent,
     FooterComponent,
     DicasViagensComponent,
-    RoteirosComponent,
     GaleriaFotosComponent,
     SobreComponent
   ],

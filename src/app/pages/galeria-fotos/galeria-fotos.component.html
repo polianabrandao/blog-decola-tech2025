@@ -1,1 +1,10 @@
-<p>galeria-fotos works!</p>
+<div class="container__gallery">
+    <div class="gallery-title">
+        <h1>GALERIA DE FOTOS</h1>
+        <p>Momentos que marcaram cada passo da jornada. Cada foto guarda uma história, uma descoberta e um pedacinho do mundo que vale a pena revisitar.</p>
+    </div>
+
+    <div class="gallery-content">
+        <img *ngFor="let img of galleryImages" [src]="img" alt="Foto de viagem">
+    </div>
+</div>

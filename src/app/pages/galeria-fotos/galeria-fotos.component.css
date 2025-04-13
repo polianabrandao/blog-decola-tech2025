@@ -1,0 +1,39 @@
+.container__gallery {
+    margin-bottom: 30px;
+}
+
+.gallery-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery-title h1 {
+    color: #d55d35;
+}
+
+.gallery-title p {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    width: 60%;
+    text-align: center;
+}
+
+.gallery-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.gallery-content img {
+    width: 400px;
+    border-radius: 3px;
+    box-shadow: 0 2px 8px #d55d3561;
+    transition: transform 0.3s ease;
+}
+
+.gallery-content img:hover {
+    transform: scale(1.05);
+}
