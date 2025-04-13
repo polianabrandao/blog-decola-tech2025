@@ -1,8 +1,9 @@
 .container__content{
     width: 100%;
-    height: 10vh;
+    min-height: 100vh;
 
     margin-top: 20px;
+    margin-bottom: 40px;
 
     display: flex;
     flex-direction: column;
@@ -10,17 +11,26 @@
 }
 
 .content__cover > img {
-    border: 5px solid rgb(134, 134, 134);
     border-radius: 5px;
     width: 500px;
     min-width: 500px;
     height: 300px;
+    margin-bottom: 20px;
+}
+
+.content__title h1 {
+    color: #d55d35;
 }
 
 .content__description{
     margin-top: 15px;
+    text-align: center;
 }
 
 .content__description > p{
-    color: grey;
+    color: rgb(39, 39, 39);
+    font-size: 18px;
+    width: 800px;
+    line-height: 1.8;
+    margin-top: 40px;
 }

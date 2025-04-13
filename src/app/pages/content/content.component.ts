@@ -15,6 +15,7 @@ export class ContentComponent {
   private id:string | null = "0"
 
   constructor(
+    //permite acessar as informações da rota atual, como os parâmetros da URL
     private route:ActivatedRoute
   ){ }
 
@@ -27,7 +28,7 @@ export class ContentComponent {
   }
 
   setValuesToComponent(id:string | null){
-    const result  = dataFake.filter(article => article.id.toString() == id)[0]
+    const result  = dataFake.filter(article => article.id == id)[0]
 
     this.contentTitle = result.title
     this.contentDescription = result.description
